@@ -1,3 +1,5 @@
+import logo from "./brutalista-logo-pagina-web-negro.png";
+
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -16,7 +18,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            React Landing Page
+          <img src={logo} alt="logo" id="logo"  />
           </a>{' '}
         </div>
 
@@ -27,37 +29,42 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
-                Features
+                Portafolio
+
               </a>
             </li>
             <li>
               <a href='#about' className='page-scroll'>
-                About
+
+                Proyectos
+
               </a>
             </li>
             <li>
               <a href='#services' className='page-scroll'>
-                Services
+              Tendencias
+
               </a>
             </li>
             <li>
               <a href='#portfolio' className='page-scroll'>
-                Gallery
+              Blog
+
               </a>
             </li>
             <li>
               <a href='#testimonials' className='page-scroll'>
-                Testimonials
+                Tienda
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href='#team' className='page-scroll'>
                 Team
               </a>
-            </li>
+            </li> */}
             <li>
               <a href='#contact' className='page-scroll'>
-                Contact
+                Contacto
               </a>
             </li>
           </ul>

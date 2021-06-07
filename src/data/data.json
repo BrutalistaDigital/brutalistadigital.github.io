@@ -1,8 +1,8 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "Somos una agencia digital",
+        "paragraph": "En Ecommerce, marketing, desarrollo web, diseño visual, investigación de mercados y pronósticos de tendencias."
 
     },
     "About": {
@@ -113,24 +113,20 @@
         "youtube": "youtube.com"
     },
     "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            
+            "icon": "fa fa-rocket",
+            "title": "Diseño Comercial y Tecnológico",
+            "text": "Desde una base tecnológica, innovadora, estratégica y comercial, impulsamos el crecimiento de tu marca, desarrollando e implementando productos, servicios y experiencias digitales que abarque un balance entre planificación, atracción, interés, deseo, acción, conversión y una experiencia de usuario simple, intuitiva y confiable."
         },
         {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-puzzle-piece",
+            "title": "Diseño Estratégico",
+            "text": "Desde el diseño integramos y equilibramos todos los elementos desde el concepto, funcionalidad, coherencia, formas y comunicación, que le permitan a las empresas marcar un rumbo en el mercado a través del branding y la comunicación, y al consumidor tener la mejor comprensión del mensaje y experiencia de usuario."
         },
         {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-key",
+            "title": "Investigación y Pronóstico",
+            "text": "Anticípese en crear productos, servicios y experiencias que las personas querrán comprar gracias a nuestra investigación contrastada entre conocimiento y comportamiento de su consumidor y pronósticos de tendencias.  Nuestros análisis basados en datos y nuestras soluciones personalizadas de consultoría son claras, procesables y le permiten tomar decisiones acertadas, ir un paso por delante y saber cómo adaptarse."
         }
     ]
 }

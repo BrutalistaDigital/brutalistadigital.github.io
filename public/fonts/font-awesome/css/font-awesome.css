@@ -1202,6 +1202,9 @@
 .fa-stack-overflow:before {
   content: "\f16c";
 }
+.fa-grav:before{
+  content: "\f2d6";
+}
 .fa-instagram:before {
   content: "\f16d";
 }
