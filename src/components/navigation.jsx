@@ -33,30 +33,26 @@ export const Navigation = (props) => {
 
               </a>
             </li>
-            <li>
-              <a href='#about' className='page-scroll'>
+            {/* <li>
+              <a href='#portfolio' className='page-scroll'>
 
                 Proyectos
 
               </a>
-            </li>
-            <li>
-              <a href='#services' className='page-scroll'>
+            </li> */}
+            {/* <li>
+              <a href='#testimonials' className='page-scroll'>
               Tendencias
 
               </a>
-            </li>
+            </li> */}
             <li>
-              <a href='#portfolio' className='page-scroll'>
-              Blog
+              <a href='#about' className='page-scroll'>
+              Nosotros
 
               </a>
             </li>
-            <li>
-              <a href='#testimonials' className='page-scroll'>
-                Tienda
-              </a>
-            </li>
+           
             {/* <li>
               <a href='#team' className='page-scroll'>
                 Team
@@ -65,6 +61,11 @@ export const Navigation = (props) => {
             <li>
               <a href='#contact' className='page-scroll'>
                 Contacto
+              </a>
+            </li>
+             <li>
+              <a href='#fdf' className='page-scroll'>
+                Blog
               </a>
             </li>
           </ul>
