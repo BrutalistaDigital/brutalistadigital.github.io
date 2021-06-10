@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
 
+
 const initialState = {
   name: '',
   email: '',
@@ -131,13 +132,13 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
+                    <a href={props.data ? props.data.instagram : '/'}>
                       <i className='fa fa-instagram'></i>
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.youtube : '/'}>
-                      <i className='fa fa-youtube'></i>
+                      <i className='fa fa-medium'></i>
                     </a>
                   </li>
                 </ul>
@@ -148,8 +149,9 @@ export const Contact = (props) => {
       </div>
       <div id='footer'>
         <div className='container text-center'>
+        <img src='img/logo-footer.png' id="id-footer" alt='' />
           <p>
-            &copy; 2021 
+           Copyright &copy; 2021 
           </p>
         </div>
       </div>

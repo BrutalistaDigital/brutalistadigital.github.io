@@ -86,6 +86,9 @@ sub {
 img {
   border: 0;
 }
+img#id-footer {
+  width: 40px;
+}
 svg:not(:root) {
   overflow: hidden;
 }
