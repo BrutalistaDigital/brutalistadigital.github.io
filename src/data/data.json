@@ -1,58 +1,73 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "Somos una agencia digital",
+        "paragraph": "En Ecommerce, marketing, desarrollo web, diseño visual, investigación de mercados y pronósticos de tendencias."
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "Somos una agencia digital en Ecommerce, marketing, desarrollo web, diseño visual, investigación de mercados y pronósticos de tendencias. Diseñamos, desarrollamos e implementamos productos, servicios, experiencias y soluciones digitales, adecuados en el momento justo y adaptables en un mundo de constante evolución en base a las tendencias futuras.",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "Impulsamos las ventas creando estrategias adecuadas en el momento justo para el consumidor del mañana.",
+            "Creemos en un mundo donde el diseño sea funcional y extraordinario.",
+            "Cobertura completa de tendencias locales y globales"
+           
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            "Contenido auténtico y análisis exhaustivos con perspectivas novedosas para despertar ideas originales.",
+            "Un equipo formado por especialistas que trabajan con pasión"
         ]
     },
-    "Services": [{
-            "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        }
+    "Services": {
+        "icon": "fa fa-shopping-cart",
+        "name": "Ecommerce",
+        "Why": [
+            "Creación de tienda online (Wordpress, Shopify, Vtex)",
+            "Apertura en plataformas de marketplacer",
+            "Consultoría en comercio electrónico",
+            "Consultoría en imagen de producto",
+            "Diseño Ecommerce"
+        ],
+        "icona": "fa fa-magnet",
+        "namea": "Marketing",
+        "Whya": [
+            "Consultoría en marketing y publicidad",
+            "Consultoría en visual marketing",
+            "Estrategia de marketing digital",
+            "Plan SEO y SEM",
+            "Email marketing",
+            "Facebook Ads",
+            "Google Ads",
+            "CRM"
+        ],
+        "iconb": "fa fa-code",
+        "nameb": "Desarrollo Web",
+        "Whyb": [
+            "Desarrollo de páginas web",
+            "Aplicaciones web y móviles",
+            "Landing pages",
+            "Catálogo online",
+            "Tienda online"
+           ],
+        "iconc": "fa fa-eye",
+        "namec": "Diseño visual",
+        "Whyc": [
+            "Estrategia y concepto creativo",
+            "Diseño de piezas publicitarias",
+            "Creación de marca (branding)",
+            "Creación de nombre (naming)",
+            "Consultoría de marca"
+        ],
+        "icond": "fa fa-search",
+        "named": "Investigación y tendencias",
+        "Whyd": [
+            "Investigación para el pronóstico de tendencias",
+            "Investigación de consumidor o público objetivo",
+            "Investigación de producto y competencia",
+            "Investigación de mercado"
+        ]
 
-
-    ],
+    },
     "Testimonials": [{
             "img": "img/testimonials/01.jpg",
             "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
@@ -105,32 +120,28 @@
         }
     ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
-        "facebook": "fb.com",
-        "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "address": "Medellín, Colombia ",
+        "phone": "+57 3012300288",
+        "email": "brutalistadigital@gmail.com",
+        "facebook": "https://www.facebook.com/Brutalista",
+        "instagram": "https://www.instagram.com/brutalista.ad/?hl=es-la",
+        "medium": "https://medium.com/@brutalista.ad"
     },
     "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            
+            "icon": "fa fa-rocket",
+            "title": "Diseño Comercial y Tecnológico",
+            "text": "Desde una base tecnológica, innovadora, estratégica y comercial, impulsamos el crecimiento de tu marca, desarrollando e implementando productos, servicios y experiencias digitales que abarque un balance entre planificación, atracción, interés, deseo, acción, conversión y una experiencia de usuario simple, intuitiva y confiable."
         },
         {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-puzzle-piece",
+            "title": "Diseño Estratégico",
+            "text": "Desde el diseño integramos y equilibramos todos los elementos desde el concepto, funcionalidad, coherencia, formas y comunicación, que le permitan a las empresas marcar un rumbo en el mercado a través del branding y la comunicación, y al consumidor tener la mejor comprensión del mensaje y experiencia de usuario."
         },
         {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-key",
+            "title": "Investigación y Pronóstico",
+            "text": "Anticípese en crear productos, servicios y experiencias que las personas querrán comprar gracias a nuestra investigación contrastada entre conocimiento y comportamiento de su consumidor y pronósticos de tendencias.  Nuestros análisis basados en datos y nuestras soluciones personalizadas de consultoría son claras, procesables y le permiten tomar decisiones acertadas, ir un paso por delante y saber cómo adaptarse."
         }
     ]
 }

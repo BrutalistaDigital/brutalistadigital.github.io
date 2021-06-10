@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
 
+
 const initialState = {
   name: '',
   email: '',
@@ -39,10 +40,9 @@ export const Contact = (props) => {
           <div className='col-md-8'>
             <div className='row'>
               <div className='section-title'>
-                <h2>Get In Touch</h2>
+                <h2>Ponte en contacto con nosotros</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                Complete el siguiente formulario para enviarnos un correo electrónico y nos comunicaremos con usted lo antes posible.
                 </p>
               </div>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
@@ -54,7 +54,7 @@ export const Contact = (props) => {
                         id='name'
                         name='name'
                         className='form-control'
-                        placeholder='Name'
+                        placeholder='Nombre'
                         required
                         onChange={handleChange}
                       />
@@ -82,7 +82,7 @@ export const Contact = (props) => {
                     id='message'
                     className='form-control'
                     rows='4'
-                    placeholder='Message'
+                    placeholder='Mensaje'
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -90,17 +90,17 @@ export const Contact = (props) => {
                 </div>
                 <div id='success'></div>
                 <button type='submit' className='btn btn-custom btn-lg'>
-                  Send Message
+                  Enviar mensaje
                 </button>
               </form>
             </div>
           </div>
           <div className='col-md-3 col-md-offset-1 contact-info'>
             <div className='contact-item'>
-              <h3>Contact Info</h3>
+              <h3>Información de contacto</h3>
               <p>
                 <span>
-                  <i className='fa fa-map-marker'></i> Address
+                  <i className='fa fa-map-marker'></i> Ubicación
                 </span>
                 {props.data ? props.data.address : 'loading'}
               </p>
@@ -108,7 +108,7 @@ export const Contact = (props) => {
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-phone'></i> Phone
+                  <i className='fa fa-phone'></i> Whatsapp
                 </span>{' '}
                 {props.data ? props.data.phone : 'loading'}
               </p>
@@ -132,13 +132,13 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
-                      <i className='fa fa-twitter'></i>
+                    <a href={props.data ? props.data.instagram : '/'}>
+                      <i className='fa fa-instagram'></i>
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.youtube : '/'}>
-                      <i className='fa fa-youtube'></i>
+                      <i className='fa fa-medium'></i>
                     </a>
                   </li>
                 </ul>
@@ -149,11 +149,9 @@ export const Contact = (props) => {
       </div>
       <div id='footer'>
         <div className='container text-center'>
+        <img src='img/logo-footer.png' id="id-footer" alt='' />
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
-            </a>
+           Copyright &copy; 2021 
           </p>
         </div>
       </div>
